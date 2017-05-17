@@ -29,6 +29,7 @@ namespace Manager.Tools
 {
 
     //Funktion zum Skalieren des Bildschirms
+    // NOT MY CODE
 
     [ValueConversion(typeof(string), typeof(string))]
     public class RatioConverter : MarkupExtension, IValueConverter
@@ -56,6 +57,8 @@ namespace Manager.Tools
     }
 
 }
+
+// MY CODE
 
 namespace Manager
 {
@@ -340,6 +343,7 @@ namespace Manager
         }
 
         //Bestätigung der Einstellungen (noch nicht implementierte Funktionalität)
+        // NOT MY CODE
 
         private void Einstellungen_OK_button_Click(object sender, RoutedEventArgs e)
         {
@@ -427,6 +431,7 @@ namespace Manager
 
 
         //Auslesen der Informationen aus der jeweiligen Datenbank-Tabelle Filme, Serien oder Spiele
+        // MY CODE
 
         private void readDB_filme(int random_num)
         {
@@ -601,6 +606,7 @@ namespace Manager
 
 
         //Wechseln der Anzeige zwischen Filmen, Serien oder Spielen
+        NOT MY CODE
 
         private void Filme_Button_sort_Click(object sender, RoutedEventArgs e)
         {
@@ -685,6 +691,7 @@ namespace Manager
 
 
         //Die Suchen-Funktionen des jeweiligen Datentyps
+        // MY CODE
 
         private void suchen_filme()
         {
@@ -861,6 +868,7 @@ namespace Manager
 
 
         //Anzeigen von Message-Boxen für noch nicht implementierte Funktionalitäten
+        // NOT MY CODE
 
         private void Bild_Button_sort_Click(object sender, RoutedEventArgs e)
         {
