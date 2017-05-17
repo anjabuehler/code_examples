@@ -119,6 +119,7 @@ namespace Manager
 
 
         //boolsche Variablen, halten fest, ob entsprechendes Slidepanel gerade ein- oder ausgefahren ist
+        // NOT MY CODE
 
         bool neu = false;
         bool suchen = false;
@@ -227,7 +228,7 @@ namespace Manager
 
             suchen_textbox.Text = null;
         }
-
+        
         private void Zufall_Button_Click(object sender, RoutedEventArgs e)
         {
 
@@ -253,6 +254,8 @@ namespace Manager
                 ShowHideMenu("sbHideSuchenMenu", suchenmenü_panel);
                 suchen = false;
             }
+            
+            // MY CODE
 
             Random random = new Random();
             ArrayList array = new ArrayList();
@@ -307,6 +310,8 @@ namespace Manager
             }
 
         }
+        
+        // NOT MY CODE
 
         private void Einstellungen_Button_Click(object sender, RoutedEventArgs e)
         {
@@ -343,7 +348,6 @@ namespace Manager
         }
 
         //Bestätigung der Einstellungen (noch nicht implementierte Funktionalität)
-        // NOT MY CODE
 
         private void Einstellungen_OK_button_Click(object sender, RoutedEventArgs e)
         {
